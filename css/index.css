@@ -53,3 +53,12 @@ select {
 #repay {
     background-color: orange;
 }
+
+#result {
+    display: none;
+    width: 350px;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 12px;
+
+}
