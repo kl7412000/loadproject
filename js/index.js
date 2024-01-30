@@ -35,7 +35,7 @@ function calcLoan() {
     document.querySelector(".totalInerest").innerText = totalInterest + "元";
     const resultEl = document.querySelector("#result");
     resultEl.style.display = "none";
-    setTimeout(fuction(){
+    setTimeout(function () {
         resultEl.style.display = "block";
     }, 500);
 }
