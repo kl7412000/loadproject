@@ -30,6 +30,30 @@ select {
     text-align: center;
 }
 
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    background-color: floralwhite;
+}
+
+thead th {
+    background-color: brown;
+    border: 1px solid aliceblue;
+    font-size: 18px;
+    color: azure;
+}
+
+td {
+    border: 1px solid antiquewhite;
+    padding: 6px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darksalmon;
+}
+
 
 #container {
     text-align: center;
